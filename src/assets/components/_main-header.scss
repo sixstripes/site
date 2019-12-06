@@ -1,0 +1,24 @@
+.main-header {
+  position: relative;
+
+  text-align: center;
+
+  @include container;
+
+  margin-top: calc(10vh + 5vw);
+
+  @include viewport-7 {
+    margin-top: calc(10vh + 5vw);
+  }
+
+  & > img {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+
+    width: 14rem;
+
+    transform: translate(-50%, -50%);
+  }
+}

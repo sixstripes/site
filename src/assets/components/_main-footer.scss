@@ -1,0 +1,36 @@
+.main-footer {
+  margin-top: 3rem;
+
+  text-align: center;
+
+  @include container;
+  @include viewport-7 {
+    margin-top: 5rem;
+  }
+
+  & > p {
+    font-family: 'Overpass', sans-serif;
+    font-size: .875rem;
+    font-weight: 800;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    letter-spacing: .02em;
+  }
+
+  & > p > img {
+    margin-left: .5rem;
+  }
+
+  & > a {
+    display: inline-flex;
+    margin-top: .25rem;
+    font-size: .875rem;
+  }
+
+  & > a:hover {
+    text-decoration: underline;
+  }
+}

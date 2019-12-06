@@ -7,6 +7,14 @@ body,
 }
 
 body {
-  color: #000;
-  background-color: #FFF;
+  color: #FFF;
+  background-color: #171717;
+  background-image: url('../images/background.png');
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
