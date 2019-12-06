@@ -1,0 +1,28 @@
+// stylesheet used to reset native browser properties.
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  text-decoration: none;
+
+  color: inherit;
+  border: none;
+
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+}
